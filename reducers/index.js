@@ -1,7 +1,7 @@
 import { HYDRATE } from "next-redux-wrapper";
 
 export const reducer = (
-  state = { app: "init", page: "init", posts:[], filteredProjects: [], postDetail:{}, user: null },
+  state = { app: "init", page: "init", posts:[], filteredProjects: [], postDetail:{}, user: "test" },
   action
 ) => {        
   switch (action.type) {
